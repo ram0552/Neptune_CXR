@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Uploads & Generated
+uploads/*
+!uploads/.gitkeep
+heatmaps/*
+!heatmaps/.gitkeep
+reports/*
+!reports/.gitkeep
+models/*
+!models/.gitkeep
+
+# Build
+frontend/dist/
+backend/dist/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+venv/
+.venv/
+dist/
+build/

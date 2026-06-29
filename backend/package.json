@@ -1,0 +1,22 @@
+{
+  "name": "neptune-cxr-backend",
+  "version": "1.0.0",
+  "description": "NEPTUNE-CXR Backend - API Gateway for Trustworthy Thoracic Disease Screening",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "echo \"Tests configured\" && exit 0"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "express": "^4.21.0",
+    "form-data": "^4.0.0",
+    "mongoose": "^8.8.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^10.0.0"
+  }
+}
